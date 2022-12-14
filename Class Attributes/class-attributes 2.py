@@ -8,7 +8,7 @@
 # b) There is a lookup path for attributes in Python. The first being
 # the method defined within the class, and then the class above it.
 
-# We are overriding the 'classy' class attribute in the instance 'dd'.
+# We are overriding the 'classy' class attribute in the instance'dd'.
 # When it's overridden, the python interpreter reads the overridden value.
 # But once the new value is deleted with 'del', the overridden value is no longer
 # present in the instance, and hence the lookup goes a level above and gets it from
